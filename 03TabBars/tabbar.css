@@ -41,6 +41,7 @@
     transform-origin: center bottom;
 }
 
+/*물방울*/
 .tabs .label::before {
     content: "";
     height: 4px;
@@ -103,7 +104,9 @@
     background-image: radial-gradient(circle at 6px -3px, transparent 6px, var(--wave-color) 6px);
     animation-duration: 3s;
 }
-
+/* https://bennettfeely.com/clippy/ */
+/* SVG 패스대로 모양을 만들어준다.*/
+/* creates a clipping region that sets what part of an element should be shown */
 .tabs .label:nth-of-type(1) .wave {
     clip-path: url(#path-icon-01);
 }

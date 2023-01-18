@@ -95,6 +95,11 @@ body {
     left:0;
 }
 
+.content > .box.on.off 
+{
+    left:-100%;
+}
+
 .flex-center 
 {
     display: flex;
